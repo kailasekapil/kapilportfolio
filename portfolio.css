@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.container {}
+
+/* navbar */
+
+nav{
+    position: fixed;
+}
+.navbar {
+    background-color: rgb(40, 165, 237);
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    z-index: 20;
+    width: 100%;
+   /* position:fixed; */
+    
+}
+
+.navlogo {
+    margin-left: 100px;
+}
+
+.nav-menu {
+    margin-right: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    /* margin: 10px; */
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-menu ul li a:hover{
+    color: rgb(218, 215, 213);
+    
+}
+
+/* first-section */
+
+.first-Section {
+    min-height: 500px;
+    /* background-color: black; */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+.self-intro {
+    width: 500px;
+}
+
+.first-Section .self-intro {
+    color: aqua;
+    align-items: center;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.first-Section .image1 {
+    align-items: center;
+}
+
+.first-Section .image1 img {
+    height: 300px;
+    position: relative;
+    border: 2px black solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+
+}
+
+.about-section {
+    justify-content: space-evenly;
+    background-color: rgb(2, 2, 2);
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+.self-image {
+    box-sizing: border-box;
+    border: 5px solid rgb(82, 77, 77);
+}
+
+.about-section .self-image img {
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px;
+}
+
+.about-section .about-text {
+    color: aqua;
+}
+
+.about-text {
+    width: 500px;
+    padding: 50px;
+}
+
+.about-text h2 {
+    font-size: 50px;
+}
+
+.about-text p {
+    font-size: 20px;
+}
+
+.about-text span {
+    background-color: rgb(133, 197, 61);
+}
+
+.personal-info {
+    justify-content: space-evenly;
+    box-shadow: 5px 5px white;
+}
+
+.personal-info p {
+    padding: 5px;
+}
+
+.about-text .personal-info {
+    border: 5px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-section button {
+    background-color: red;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-me {
+    background-color: black;
+    color: white;
+    height: 600px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.contact-me .contact-heading {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    /* margin-top: 20px; */
+    /* border: 5px solid red; */
+}
+.contact-me .contact-heading h2{
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+.contact-me .contact-detail {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact-me .contact-detail .contact-info h5 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.contact-me .contact-detail .contact-info p {
+    font-size: 30px;
+
+
+}
+
+.contact-me .contact-detail .contact-info .contact-name {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgb(60, 198, 205);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contact-me .contact-detail .contact-info .contact-Address {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgb(60, 198, 205);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contact-me .contact-detail .contact-info .contact-email {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgb(60, 198, 205);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contact-me .messaging-info {
+    padding: 0px;
+}
+
+.contact-me .messaging-info .mess-head {
+
+    font-size: 40px;
+}
+
+.contact-me .messaging-info input {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.contact-me .messaging-info .subject {
+    width: 100%;
+}
+
+.contact-me .messaging-info .message {
+    height: 90px;
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services{
+    min-height: 500px;
+    background-color: rgb(10, 9, 8);
+    /* justify-content: space-around; */
+    text-align: center;
+    padding-top: 30px;
+}
+.services h4{
+    font-size: 30px;
+    color: white;
+}
+.services h3 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.src-container{
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+.ser-webdesign{
+    box-sizing: border-box;
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(232, 226, 223);
+    
+}
+
+
+.ser-webdevelopment{
+    box-sizing: border-box;
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(232, 226, 223);
+}
+.ser-webdevelopment p{
+    font-size: 20px;
+}
+.ser-webdesign p{
+    font-size: 20px;
+
+}
